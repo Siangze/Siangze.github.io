@@ -1,0 +1,57 @@
+.headline{
+    font-size:30px;font-weight:bold;
+    margin-top:15px;
+    margin-bottom:5px;
+    text-align:center;
+}
+.desktop-menu{
+text-align: center;
+display:block;
+font-weight:bold;
+padding:24px 28px;
+margin-top:10px;
+margin-bottom:10px;
+background-color:rgb(0, 173, 204);
+color: white;
+}
+.mobile-menu{
+text-align:center;
+display:none;
+}
+.list{
+    display:flex;justify-content:center;
+}
+.product{
+    flex:none;width:280px;margin:10px;
+    background-color: #ffcccc;
+}
+/*桌機螢幕尺寸最小為1280 所以設定1250為分界 如果小於1250則套用這個區塊CSS*/
+@media(max-width:1250px){
+    .list{
+        flex-wrap:wrap;
+    }
+    /*新的會覆蓋 如下面width 但是舊的設定可延用*/
+    .product{
+        width:45%;
+    }
+}
+/*cellphone size sample; 如果小於500則套用這個區塊CSS*/
+@media(max-width:500px){
+    .headline{
+        font-size:20px;
+    }
+    .desktop-menu{
+        text-align: center;
+        display:none;
+    }
+    .mobile-menu{
+        text-align:center;
+        display:block;
+    }
+    .list{
+        flex-wrap:wrap;
+    }
+    .product{
+        width:90%;
+    }
+}
