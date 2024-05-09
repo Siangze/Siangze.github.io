@@ -42,11 +42,11 @@ display:none;
     }
     .desktop-menu{
         text-align: center;
-        display:none;
+        flex-wrap:wrap;
     }
     .mobile-menu{
         text-align:center;
-        display:block;
+        display:none; /*原本是block*/
     }
     .list{
         flex-wrap:wrap;
