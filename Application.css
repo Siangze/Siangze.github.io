@@ -41,7 +41,8 @@ text-align:center;
 display:none;
 }
 .list{
-    display:flex;justify-content:center;
+    display:flex;
+    justify-content:center;
 }
 .product{
     flex:none;width:280px;margin:10px;
@@ -61,14 +62,6 @@ display:none;
         font-size:20px;
     }
     .desktop-menu{
-        text-align: center;
-        flex-wrap:wrap;
-    }
-    .mobile-menu{
-        text-align:center;
-        display:none; 
-    }
-    .list{
         flex-wrap:wrap;
     }
     .product{
