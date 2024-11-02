@@ -4,6 +4,10 @@
     margin-top:15px;
     margin-bottom:5px;
     text-align:center;
+    color:white;
+    background-color: #262637;
+    padding:30px;
+    border-radius:10px;
 }
 .desktop-menu{
 text-align: center;
