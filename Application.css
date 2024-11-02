@@ -13,7 +13,13 @@ margin-top:10px;
 margin-bottom:10px;
 background-color:rgb(0, 173, 204);
 color: white;
+padding:10px;
 }
+
+.desktop-menu:hover{
+    background-color:rgb(0, 140, 174);
+}
+
 .mobile-menu{
 text-align:center;
 display:none;
@@ -54,4 +60,15 @@ display:none;
     .product{
         width:90%;
     }
+}
+
+.content{
+    display:none;
+    padding:10px;
+    background-color:#f9f9f9;
+    margin-top: 5px;
+}
+
+.active .content{
+    display:block;
 }
