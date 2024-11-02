@@ -1,5 +1,6 @@
 .headline{
     font-size:30px;font-weight:bold;
+    font-family: -apple-system,'SF Pro Text','SF Pro','PingFang TC','Helvetica Neue','Microsoft JhengHei', '微軟正體黑','Heiti TC';
     margin-top:15px;
     margin-bottom:5px;
     text-align:center;
@@ -8,6 +9,7 @@
 text-align: center;
 display:block;
 font-weight:bold;
+font-family: 'PingFang TC','Microsoft JhengHei', '微軟正體黑','Heiti TC';
 padding:24px 28px;
 margin-top:10px;
 margin-bottom:10px;
