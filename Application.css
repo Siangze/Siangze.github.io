@@ -22,10 +22,10 @@ border-radius:24px;
 border:1px solid #107a84;
 padding:10px;
 -webkit-tap-highlight-color: transparent; /* removes tap higlight on ios */
-touch-action: manipulation; /* Optimizes touch behavioe */
+touch-action: manipulation; /* Optimizes touch behavior */
 }
 
-.desktop-menu:hover{ /* mouse over any element with the class will change to darker blue,desktop device only*/
+.desktop-menu:hover{ /* mouse over any elements with the class will change to darker blue,desktop device only*/
     background-color:#00deb6;
     color:#030316;
 }
