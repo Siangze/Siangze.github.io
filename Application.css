@@ -47,8 +47,7 @@ display:none;
     flex:none;width:280px;margin:10px;
     background-color: #ffcccc;
 }
-/*1280 is the minimum size of desktop, set the boundary as 1250px, if the screen size smaller than 1250px then use below*/
-@media(max-width:1250px){
+@media(max-width:1250px){ /*1280 is the minimum size of desktop, set the boundary as 1250px, if the screen size smaller than 1250px then use below*/
     .list{
         flex-wrap:wrap;
     }
@@ -56,8 +55,8 @@ display:none;
         width:45%;
     }
 }
-/*cellphone size sample; if size is smaller then 500px then use below*/
-@media(max-width:500px){
+
+@media(max-width:500px){ /*cellphone size sample; if size is smaller then 500px then use below*/
     .headline{
         font-size:20px;
     }
