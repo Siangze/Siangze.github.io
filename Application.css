@@ -12,6 +12,7 @@
 .desktop-menu{
 text-align: center;
 display:block;
+font-size:18px;
 font-weight:bold;
 font-family: 'PingFang TC','Microsoft JhengHei', '微軟正體黑','Heiti TC';
 margin-top:10px;
@@ -30,6 +31,7 @@ touch-action: manipulation; /* Optimizes touch behavior */
     color:#030316;
 }
 .content{
+    font-size:14px;
     text-align:left;
     font-family: 'PingFang TC','Microsoft JhengHei', '微軟正體黑','Heiti TC';
     display:none;
@@ -44,9 +46,11 @@ touch-action: manipulation; /* Optimizes touch behavior */
 
 button {
     color:white;
+    font-size:14px;
     font-family: 'PingFang TC','Microsoft JhengHei', '微軟正體黑','Heiti TC';
     display: inline-block;
     align-items: center;
+    text-align: center;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
