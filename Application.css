@@ -42,7 +42,7 @@ touch-action: manipulation; /* Optimizes touch behavior */
     display:block;
 }
 
-.content link {
+button.link {
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -56,7 +56,7 @@ touch-action: manipulation; /* Optimizes touch behavior */
     background-color: #262637;
 }
 
-.content link:hover {
+button.link:hover {
     background-color: #f0f0f0bd; /* Light background on hover */
 }
 
