@@ -42,6 +42,22 @@ touch-action: manipulation; /* Optimizes touch behavior */
     display:block;
 }
 
+.link {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 90%; /* Use percentage for fluid width */
+    max-width: 250px; /* Limit max width for larger screens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s; /* Smooth background transition */
+    cursor: pointer; /* Indicate that the block is clickable */
+    background-color: #262637;
+}
+
+.link:hover {
+    background-color: #f0f0f0bd; /* Light background on hover */
+}
 
 /*below are handling the cross device situations*/
 .mobile-menu{
