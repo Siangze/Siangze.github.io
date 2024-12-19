@@ -30,7 +30,7 @@ touch-action: manipulation; /* Optimizes touch behavior */
     color:#030316;
 }
 .content{
-    text-align: center;
+    text-align:left;
     font-family: 'PingFang TC','Microsoft JhengHei', '微軟正體黑','Heiti TC';
     display:none;
     padding:10px;
