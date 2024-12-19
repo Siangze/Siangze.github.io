@@ -43,7 +43,10 @@ touch-action: manipulation; /* Optimizes touch behavior */
 }
 
 button {
+    color:white;
+    font-family: 'PingFang TC','Microsoft JhengHei', '微軟正體黑','Heiti TC';
     display: inline-block;
+    align-items: center;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
