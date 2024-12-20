@@ -67,7 +67,7 @@ button {
 
 button:hover {
     background-color: #eae7e7bd; /* Light background on hover */
-    color:#cfd7d5;
+    color:#a0a7a5;
 }
 
 /*below are handling the cross device situations*/
