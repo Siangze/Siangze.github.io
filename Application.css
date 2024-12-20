@@ -22,8 +22,9 @@ color: Black;
 border-radius:24px;
 border:1px solid #107a84;
 padding:10px;
--webkit-tap-highlight-color: transparent; /* removes tap higlight on ios */
-touch-action: manipulation; /* Optimizes touch behavior */
+/*-webkit-tap-highlight-color: transparent; /* removes tap higlight on ios */
+touch-action: manipulation; /*Optimizes touch behavior */
+cursor: pointer;
 }
 
 .desktop-menu:hover{ /* mouse over any elements with the class will change to darker blue,desktop device only*/
@@ -70,35 +71,34 @@ button:hover {
 }
 
 /*below are handling the cross device situations*/
-.mobile-menu{
-text-align:center;
-display:none;
-}
-.list{
-    display:flex;
-    justify-content:center;
-}
-.product{
-    flex:none;width:280px;margin:10px;
-    background-color: #ffcccc;
-}
-@media(max-width:1250px){ /*1280 is the minimum size of desktop, set the boundary as 1250px, if the screen size smaller than 1250px then use below*/
-    .list{
-        flex-wrap:wrap;
+/* Media Queries */
+@media (max-width: 768px) {
+    .headline {
+        font-size: 1.5rem;
     }
-    .product{
-        width:45%;
+
+    .desktop-menu {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    button {
+        font-size: 0.9rem;
     }
 }
 
-@media(max-width:500px){ /*cellphone size sample; if size is smaller then 500px then use below*/
-    .headline{
-        font-size:20px;
+@media (max-width: 500px) {
+    .headline {
+        font-size: 1.2rem;
+        padding: 1rem;
     }
-    .desktop-menu{
-        flex-wrap:wrap;
+
+    .desktop-menu {
+        font-size: 0.9rem;
+        padding: 0.6rem;
     }
-    .product{
-        width:90%;
+
+    .content {
+        font-size: 0.9rem;
     }
 }

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',function(){
         menuItems.forEach(item => {
         const menu = item.querySelector('.desktop-menu'); //find the element: desktop-menu
                 //add both click and touch events
-            ['click', 'touched'].forEach(eventType=>{
+            ['click', 'touchstart'].forEach(eventType=>{
                 menu.addEventListener(eventType,function(e){
                 e.preventDefault(); //prevent default browser behavior (scrolling on touch)
                 //close all other open items
