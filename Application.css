@@ -37,7 +37,7 @@ cursor: pointer;
     text-align:left;
     font-family: 'PingFang TC','Microsoft JhengHei', '微軟正體黑','Heiti TC';
     display:none;
-    padding:10px;
+    padding:20px;
     background-color:#f9f9f9;
     margin-top: 5px;
     overflow: hidden; /* prevents content from bleeding through, but it's not necessary in my case */
